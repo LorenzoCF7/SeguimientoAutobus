@@ -6,7 +6,7 @@ public class Frame extends JFrame {
     private InicioPanel panelInicio;
     private Mapa panelMapa;
     public Frame() {
-        setTitle("Mi Aplicación");
+        setTitle("Seguimiento Autobuses");
         setSize(800, 800);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
