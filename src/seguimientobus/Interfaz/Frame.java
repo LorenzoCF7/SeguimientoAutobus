@@ -16,6 +16,9 @@ public class Frame extends JFrame {
 
         setContentPane(panelInicio);
 
+        ImageIcon icono = new ImageIcon(getClass().getResource("/seguimientobus/img/ciudad.png"));
+        setIconImage(icono.getImage());
+
         // Acción: Ir al mapa
         panelInicio.btnIrAlMapa.addActionListener(e -> {
             setContentPane(panelMapa);
