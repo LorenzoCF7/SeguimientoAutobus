@@ -230,18 +230,21 @@ public class Mapa extends JPanel {
                 parado[0] = false;
                 total_paradas[0]++;
                 repaint();
+                System.out.println("Autobus 1 está en una parada");
                 return;
             }
             if (parado[1]) {
                 parado[1] = false;
                 total_paradas[1]++;
                 repaint();
+                System.out.println("Autobus 2 está en una parada");
                 return;
             }
             if (parado[2]) {
                 parado[2] = false;
                 total_paradas[2]++;
                 repaint();
+                System.out.println("Autobus 3 está en una parada");
                 return;
             }
 

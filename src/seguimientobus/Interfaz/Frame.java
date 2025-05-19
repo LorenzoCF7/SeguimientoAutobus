@@ -8,6 +8,7 @@ public class Frame extends JFrame {
     public Frame() {
         setTitle("Seguimiento Autobuses");
         setSize(800, 800);
+        setResizable(false);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
